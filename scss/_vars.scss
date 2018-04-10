@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'PTAstraSans';
+    src: url('../fonts/PTAstraSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family:'PTAstraSans';
+    src: url('../fonts/PTAstraSans-Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'PTAstraSans';
+    src: url('../fonts/PTAstraSans-Italic.ttf') format('ttf');
+    font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,900&subset=cyrillic');
+
+$font-stack:   'PTAstraSans', Arial, sans-serif;
+$primary-color: #000;
+$primary-light-color: #fff;
+$link-hover-color: #f47d42;
